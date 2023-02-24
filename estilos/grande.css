@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    
+}
+
+body {
+    background-image: linear-gradient(to top, #9AEBA3, #13678A);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#img {
+    background-color: white;
+    background-image: url(../imagens/imagem-login-g.jpg);
+    background-size: cover;
+    width: 20vw;
+    height: 40vh;
+    position: left;
+}
+
+#tela-login {
+    background-color: white;
+    padding: 10px;
+    border-top-right-radius: .8em;
+    border-bottom-right-radius: .8em;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.404);
+    width: 40vw;
+    margin: auto;
+    margin-top: 12em;
+}
+
+#tela-login > h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#tela-login > p {
+    margin: 5px;
+}
+
+input {
+    margin: 3px;
+}
+
+#senha, #acesso {
+    background-color: #13678A;
+    display: block;
+    margin: .1em;
+    width: fit-content;
+    border-radius: 0.2em;
+}
+
+#entrar, #esqueci {
+    border: 1.5px solid #3dcab3;;
+    border-radius: .2em;
+    margin: .2em;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#entrar {
+    background-color: #3dcab3;
+}
+
