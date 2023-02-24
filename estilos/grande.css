@@ -19,18 +19,8 @@ body {
     display: inline-block;
 }
 
-#img {
-    display: inline-block;
-    float: left;
-    background-color: white;
-    background-image: url(../imagens/imagem-login-g.jpg);
-    background-size: cover;
-    width: 20vw;
-    height: 40vh;
-}
-
 #tela-login {
-    display: inline-block;
+    display: block;
     background-color: white;
     padding: 10px;
     border-top-right-radius: .8em;
