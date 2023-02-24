@@ -15,16 +15,22 @@ body {
     height: 100vh;
 }
 
+#login {
+    display: inline-block;
+}
+
 #img {
+    display: inline-block;
+    float: left;
     background-color: white;
     background-image: url(../imagens/imagem-login-g.jpg);
     background-size: cover;
     width: 20vw;
     height: 40vh;
-    position: left;
 }
 
 #tela-login {
+    display: inline-block;
     background-color: white;
     padding: 10px;
     border-top-right-radius: .8em;
